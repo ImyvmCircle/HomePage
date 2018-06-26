@@ -5,6 +5,7 @@
 */
 
 (function($) {
+	$("#topnav").scrollupbar();
 
 	skel.breakpoints({
 		xxlarge: '(max-width: 1920px)',
