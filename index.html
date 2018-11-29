@@ -19,32 +19,56 @@
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
     <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "主页",
-        "item": "https://imyvm.com"
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+  {
+  "@context": "http://schema.org",
+      "@type": "WebSite",
+      "position": "1",
+      "url": "https://imyvm.com/",
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": "https://www.google.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "竹萌的后花园",
-        "item": "https://discuss.imyvm.com"
-      },{
-        "@type": "ListItem",
-        "position": 3,
-        "name": "竹萌百科",
-        "item": "https://wiki.imyvm.com"
-      },{
-        "@type": "ListItem",
-        "position": 4,
-        "name": "统计",
-        "item": "https://stats.imyvm.com"
+        "@type": "SearchAction",
+        "target": "android-app://com.google/https/www.google.com/search/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }]
-    }
-    </script>
+  },
+  {
+  "@type": "ListItem",
+  "url": "https://wiki.imyvm.com",
+  "position": "1",
+  "name": "竹萌百科",
+  "description": "Minecraft Imyvm Circle 是我的世界竹萌服务器兴趣圈。这里活跃着一群由于 Minecraft 而聚集在一起的小伙伴，竹萌对于他们而言，不仅仅是一个我的世界服务器，更像是存在于云端的家。 在服务器里挥洒脑洞，模拟现实，探索未知，相互协作。同时，这里也是与小伙伴一起分享心情的地方，结交朋友，发展友谊。"
+},
+{
+  "@type": "ListItem",
+  "url": "https://discuss.imyvm.com",
+  "position": "2",
+  "name": "竹萌的后花园",
+  "description": "欢迎来到竹萌的后花园，参与互动、分享心情、闲聊吹水，欢迎各位新老玩家在此讨论，为了保证论坛整洁，请各位发帖时看清版块哦XD，论坛目前分为四大板块：竹萌新闻，竹萌酒馆，建议意见：各用户组均可发帖，对于服务器各个设定，论坛发展，wiki内容的建议，都可以发布"
+},
+{
+  "@type": "ListItem",
+  "url": "https://stats.imyvm.com",
+  "position": "3",
+  "name": "竹萌统计",
+  "description": "记录各玩家的实时信息，方便可靠"
+},
+{
+  "@type": "ListItem",
+  "url": "https://map.imyvm.com",
+  "position": "4",
+  "name": "竹萌动态地图",
+  "description": "在浏览器中实时观察云端的家"
+}
+]
+}
+</script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" id="topnav" style="background-color:#fff;margin-bottom: 0;">
